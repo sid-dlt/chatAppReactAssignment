@@ -1,0 +1,13 @@
+.mainContainer{
+    height: 100vh;
+    margin-top: 8vh;    
+}
+
+.message{
+    margin-top: 10px;
+}
+.button{
+    height: 20px;
+    width: 100px;
+    margin-top: 10px;
+}
