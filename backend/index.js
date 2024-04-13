@@ -32,6 +32,9 @@ wss.on('connection', function connection(ws) {
         clients.splice(clients.indexOf(ws), 1);
         console.log('Client disconnected.');
     });
+    ws.on('error', (err)=>{
+        console.log(err)
+    });
 });
 
 

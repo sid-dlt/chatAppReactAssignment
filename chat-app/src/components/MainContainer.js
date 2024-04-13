@@ -19,6 +19,9 @@ const MainContainer=()=>{
         updateMessages(previousState=>[...previousState,event.data])
         
     })
+    webSocketServer.onerror=('error',(event)=>{
+        console.log(event)
+    })
 
     return () => {
         if (webSocketServer) {

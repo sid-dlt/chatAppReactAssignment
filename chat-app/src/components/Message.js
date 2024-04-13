@@ -2,7 +2,7 @@ import './style.css'
 
 
 const Message=(props)=>{
-    return(<div className='message' key={props.key}>
+    return(<div className='message'>
         {props.message}
 
 
